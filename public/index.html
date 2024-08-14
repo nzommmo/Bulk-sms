@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send SMS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, input, textarea, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Send SMS</h1>
+    <form id="sms-form">
+        <label for="to">Recipient Phone Numbers (comma or newline separated):</label>
+        <textarea id="to" name="to" rows="4" placeholder="+254757876614, +254700000000" required></textarea>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
+
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" placeholder="Sender ID or number" required>
+
+        <button type="submit">Send SMS</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('sms-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const to = document.getElementById('to').value.split(/[\s,]+/); // Split by spaces or commas
+            const message = document.getElementById('message').value;
+            const from = document.getElementById('from').value;
+
+            fetch('/send-sms', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ to, message, from })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                if (data.success) {
+                    resultDiv.textContent = 'SMS sent successfully!';
+                } else {
+                    resultDiv.textContent = `Error: ${data.error}`;
+                }
+            })
+            .catch(error => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.textContent = `Error: ${error.message}`;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -4,8 +4,8 @@ const AfricasTalking = require('africastalking');
 
 
 const africastalking = AfricasTalking({
-    apiKey: 'atsk_fa2af2a7985cbfcafcb6c7e5ceaaa4dde6dcd456f097740eb761d15bbc4746f082f80f0b', 
-    username: 'eric2578'
+    apiKey: 'atsk_1941837088948334b580403b0dd13471c559d8065bc3aa3e6feeeb86967dcfef8209174e', 
+    username: 'sandbox'
   });
 
 module.exports = async function sendSMS() {
@@ -15,6 +15,7 @@ module.exports = async function sendSMS() {
   const result=await africastalking.SMS.send({
     to: '+254757876614', 
     message: 'Hey AT Ninja! Wassup...',
+    from: '32053'
   });
   console.log(result);
 } catch(ex) {

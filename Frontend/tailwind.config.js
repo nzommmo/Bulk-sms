@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        customg:'#00c065',
+        customl:'#aeffdb',
+        customm:'#009652',
+        customx:'#2bfd9e',
+        customf:'#d5ffed',
+        
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

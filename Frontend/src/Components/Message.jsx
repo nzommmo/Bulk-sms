@@ -96,15 +96,22 @@ const Message = () => {
                   
                 </form>
                 {response && (
-                    <div>
-                        <h2>Response</h2>
-                        {response.success ? (
-                            <pre>{JSON.stringify(response.result, null, 2)}</pre>
-                        ) : (
-                            <p>Error: {response.error}</p>
-                        )}
-                    </div>
-                )}
+    <div className="mt-5">
+        <h2>Response</h2>
+        {response.success ? (
+            <div>
+                {response.result.SMSMessageData.Recipients.map((recipient, index) => (
+                    <p key={index}>
+                        Number: {recipient.number} - Status: {recipient.status} - Cost: {recipient.cost}
+                    </p>
+                ))}
+                <p className="">Total Message: {response.result.SMSMessageData.Message}</p>
+            </div>
+        ) : (
+            <p>Error: {response.error}</p>
+        )}
+    </div>
+)}
             </div>
         </div>
     );

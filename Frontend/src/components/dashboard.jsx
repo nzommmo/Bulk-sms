@@ -51,8 +51,8 @@ const  Dashboard =() => {
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <a href="/" className="flex items-center gap-2 font-semibold">
               <Package2 className="h-6 w-6" />
-              <span className="">Acme Inc</span>
-            </a>
+              <h1 className="text-lg font-semibold text-customq flex gap-1 md:text-2xl">SMS <p className='text-customl'>Nasi</p> </h1>
+              </a>
             <Button variant="outline" size="icon" className="ml-auto h-8 w-8 text-black">
               <Bell className="h-4 w-4" />
               <span className="sr-only">Toggle notifications</span>
@@ -83,7 +83,7 @@ const  Dashboard =() => {
                 className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
               >
                 <Package className="h-4 w-4" />
-                Products{" "}
+                Packages
               </a>
               <a
                 href="#"
@@ -164,7 +164,7 @@ const  Dashboard =() => {
                   className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
                 >
                   <Package className="h-5 w-5" />
-                  Products
+                  Packages
                 </a>
                 <a
                   href="#"
@@ -229,7 +229,7 @@ const  Dashboard =() => {
           </DropdownMenu>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6">
-          <div className="flex items-center">
+          <div className="flex items-center md:hidden">
             <h1 className="text-lg font-semibold text-customq flex gap-1 md:text-2xl">SMS <p className='text-customl'>Nasi</p> </h1>
           </div>
           <div

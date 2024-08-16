@@ -12,15 +12,15 @@ import {
   Users,
 } from "lucide-react"
 
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Badge } from "../components/ui/badge"
+import { Button } from "../components/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "../components/ui/card"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -28,10 +28,10 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Input } from "@/components/ui/input"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import Message from '@/Components/Message';
+} from "../components/ui/dropdown-menu"
+import { Input } from "../components/ui/input"
+import { Sheet, SheetContent, SheetTrigger } from "../components/ui/sheet"
+import Message from '../Components/Message';
 import { useState } from 'react';
 
 

@@ -23,6 +23,7 @@ module.exports = {
         customm:'#009652',
         customx:'#2bfd9e',
         customf:'#d5ffed',
+        customq:'#edfff6',
         
       },
       keyframes: {

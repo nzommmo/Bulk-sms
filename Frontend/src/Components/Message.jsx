@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import Papa from 'papaparse';
+import { apiUrl } from '../../../config';
 
 const Message = () => {
     const [file, setFile] = useState(null);
@@ -30,6 +31,7 @@ const Message = () => {
             skipEmptyLines: true
         });
     };
+    console.log(apiUrl)
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -37,7 +39,7 @@ const Message = () => {
         const numbersArray = to.split(/[\s,]+/).filter(Boolean); // Convert the `to` string back into an array
 
         try {
-            const res = await axios.post('http://localhost:3000/send-sms', {
+            const res = await axios.post(`${apiUrl}/send-sms`, {
                 to: numbersArray,
                 message,
                 from

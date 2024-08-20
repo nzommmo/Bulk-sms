@@ -12,7 +12,8 @@ const UseCase = () => {
        <div className="">
        <ShoppingBag className='mb-2'color="#00c065" size={28}/>
           <p className="font-bold sm:text-xl md:text-3xl">Retail</p>
-          <p>Promote sales and offers to your customers.
+          <p>Keep your customers informed about the latest promotions, discounts, and special offers. Increase foot traffic and boost sales with timely notifications.
+          
           </p>
          <p className="italic underline">Learn More</p>
          <div>
@@ -23,21 +24,23 @@ const UseCase = () => {
         <div>
         <HeartPulse className='mb-2' color="#00c065" size={28}/>
           <p className="font-bold sm:text-xl md:text-3xl">Healthcare</p>
-          <p>Send appointment reminders and health tips.</p>
+          <p>Reduce no-shows by sending automated reminders to patients about upcoming appointments, making it easier for them to manage their schedules.
+          </p>
           <p className="italic underline">Learn More</p>
 
         </div>
         <div>
         <School  className='mb-2'  color="#00c065" size={28}/>
           <p className="font-bold sm:text-xl md:text-3xl"> Education</p>
-          <p>Notify students and parents of important updates.</p>
+          <p>Communicate important updates such as exam schedules, school events, or changes in the timetable directly to students and parents.
+          </p>
           <p className="italic underline">Learn More</p>
 
         </div>
         <div>
         <PartyPopper  className='mb-2'  color="#00c065" size={28}/>
           <p  className="font-bold sm:text-xl md:text-3xl">Events</p>
-          <p>Ensure attendees are informed with event reminders.</p>
+          <p>Ensure high attendance by sending reminders about upcoming events, concerts, or shows. Include location details and any last-minute changes.</p>
           <p className="italic underline">Learn More</p>
 
         </div>

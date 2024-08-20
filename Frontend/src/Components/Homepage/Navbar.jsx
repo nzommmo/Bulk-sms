@@ -1,8 +1,10 @@
+import { useState } from "react";
 import Hero from "./Hero";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const [more,setMore] = useState("")
 
   const handleLoginClick = () => {
     navigate("/dashboard"); // Replace '/dashboard' with your desired path

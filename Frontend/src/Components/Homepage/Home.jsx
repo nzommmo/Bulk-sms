@@ -1,6 +1,5 @@
 import Navbar from "./Navbar"
-import Hero from "./Hero"
-import Service from "./Service"
+import UseCase from "./UseCase"
 import Features from "./Features"
 const Home = () => {
   return (
@@ -9,6 +8,8 @@ const Home = () => {
 
     <Navbar/>
     <Features/>
+    <UseCase/>
+    
 
 
 

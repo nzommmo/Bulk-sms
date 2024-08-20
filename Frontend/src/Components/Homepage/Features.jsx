@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react"
 
 const Features = () => {
   return (
-    <div className='h-screen absolute  mt-10 mb-10'>
+    <div className='mt-10 mb-10'>
         <div className='bg-customm ms-10 me-10 pb-5 rounded-lg'>
             <div className=' flex items-center justify-center'>
                 <h1 className='mt-5 bg-customg rounded-xl px-1 text-2xl text-black '>Why Choose SMS NASI?</h1>

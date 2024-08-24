@@ -2,6 +2,7 @@ import Navbar from "./Navbar"
 import UseCase from "./UseCase"
 import Features from "./Features"
 import Pricing from "./Pricing"
+import CTA from "./CTA"
 const Home = () => {
   return (
    
@@ -11,6 +12,9 @@ const Home = () => {
     <Features/>
     <UseCase/>
     <Pricing/>
+    <CTA/>
+
+
 
     
 

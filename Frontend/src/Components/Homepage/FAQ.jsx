@@ -20,7 +20,7 @@ const FAQ = () => {
                 <div className='md:flex md:justify-between '>
                 <div className='flex flex-col gap-3 items-center'>
                     <div className='w-[500px]  mb-5'>
-                        <div className='bg-customl h-[50px] text-black rounded-md'>
+                        <div className='bg-customl  text-black rounded-md'>
                             <div className='flex items-center justify-between px-5 py-3 '>
                                 <p>What is this?</p>
                                 <button
@@ -42,7 +42,7 @@ const FAQ = () => {
                     </div>
 
                     <div className='w-[500px] mb-5'>
-                    <div className='bg-customl h-[50px] text-black rounded-md'>
+                    <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
                                 <button
                                     className='bg-customm rounded-full px-2'
@@ -62,7 +62,7 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className='w-[500px] mb-5'>
-                    <div className='bg-customl h-[50px] text-black rounded-md'>
+                    <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
                                 <button
                                     className='bg-customm rounded-full px-2'
@@ -82,7 +82,7 @@ const FAQ = () => {
                         </div>
                     </div>
                     <div className='w-[500px] mb-5'>
-                    <div className='bg-customl h-[50px] text-black rounded-md'>
+                    <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
                                 <button
                                     className='bg-customm rounded-full px-2'
@@ -102,7 +102,7 @@ const FAQ = () => {
                         </div>
                     </div>
                      <div className='w-[500px] mb-5'>
-                     <div className='bg-customl h-[50px] text-black rounded-md'>
+                     <div className='bg-customl  text-black rounded-md'>
                      <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
                                 <button
                                     className='bg-customm rounded-full px-2'

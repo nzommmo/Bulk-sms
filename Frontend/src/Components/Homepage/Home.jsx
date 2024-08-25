@@ -3,6 +3,7 @@ import UseCase from "./UseCase"
 import Features from "./Features"
 import Pricing from "./Pricing"
 import CTA from "./CTA"
+import FAQ from "./FAQ"
 const Home = () => {
   return (
    
@@ -13,6 +14,7 @@ const Home = () => {
     <UseCase/>
     <Pricing/>
     <CTA/>
+    <FAQ/>
 
 
 

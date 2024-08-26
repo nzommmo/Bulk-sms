@@ -17,9 +17,9 @@ const FAQ = () => {
                 <div className='mt-10  mb-10 flex items-center justify-center'>
                     <h1>Frequently Asked Questions</h1>
                 </div>
-                <div className='md:flex md:justify-between '>
+                <div className='md:flex items-center  md:justify-between '>
                 <div className='flex flex-col gap-3 items-center'>
-                    <div className='w-[500px]  mb-5'>
+                    <div className='w-[330px] me-5 mb-5'>
                         <div className='bg-customl  text-black rounded-md'>
                             <div className='flex items-center justify-between px-5 py-3 '>
                                 <p>What is SMS Nasi? </p>
@@ -40,7 +40,7 @@ const FAQ = () => {
                         </div>
                     </div>
 
-                    <div className='w-[500px] mb-5'>
+                    <div className='w-[330px] me-5 mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>        
                                                 <p>How does SMS Nasi work?</p>
@@ -59,7 +59,7 @@ const FAQ = () => {
                             )}
                         </div>
                     </div>
-                    <div className='w-[500px] mb-5'>
+                    <div className='w-[330px] me-5  mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>                                
                         <p>How do I create an account? </p>
@@ -80,7 +80,7 @@ const FAQ = () => {
                             )}
                         </div>
                     </div>
-                    <div className='w-[500px] mb-5'>
+                    <div className='w-[330px] me-5 mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
                     <div className='flex items-center justify-between px-5 py-3 '>                               
                          <p>How many messages can I send at once? </p>
@@ -101,7 +101,7 @@ const FAQ = () => {
                             )}
                         </div>
                     </div>
-                     <div className='w-[500px] mb-5'>
+                     <div className='w-[330px] me-5 mb-5'>
                      <div className='bg-customl  text-black rounded-md'>
                      <div className='flex items-center justify-between px-5 py-3 '>                              
                           <p>How much does it cost to send a message? </p>

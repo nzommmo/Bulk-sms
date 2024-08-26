@@ -23,10 +23,10 @@ const Navbar = () => {
             </h1>
           </div>
           <div className="me-5">
-            <ul className="flex gap-7 items-center">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact Us</a></li>
+            <ul className="flex md:gap-7 items-center">
+              <li className="px-2"><a href="#">Home</a></li>
+              <li className="px-2"><a href="#">About</a></li>
+              <li className="px-2"><a href="#">Contact </a></li>
               {/* The Login button is handled programmatically with useNavigate */}
               <li
                 className="bg-customg px-3 py-1 rounded-md cursor-pointer"

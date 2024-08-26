@@ -13,7 +13,7 @@ const Footer = () => {
               SMS <p className="text-customl">Nasi</p>
             </h1>                </div>
                 <div>
-                    <h1 className='text-customm text-xl  '>About Us</h1>
+                    <h1 className='text-customm text-xl'>About Us</h1>
                     <p>
                         We help you reach a large audiene at the click of a button
                     </p>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col gap-2'>
+            <div className='clex flex-col gap-2'>
                 <div>
                 <h1 className='text-customm text-xl '>Information</h1>
                 </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <div>
                     <h1 className='text-lg mb-4'>Subsribe To Our Newsletter For More Info</h1>
                 </div>
-                <input type="text" className='md:py-3 sm:py-2 px-2 rounded sm:w-1/2'  placeholder='Enter your Email'/>
+                <input type="text" className='md:py-3 sm:py-2 h-[40px] px-2 rounded '  placeholder='Enter your Email'/>
                <div>
                <button className='float-left bg-customg px-3 py-1 rounded mt-2'>Subscribe</button>
 

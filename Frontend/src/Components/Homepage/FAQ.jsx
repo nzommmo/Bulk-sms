@@ -22,7 +22,7 @@ const FAQ = () => {
                     <div className='w-[500px]  mb-5'>
                         <div className='bg-customl  text-black rounded-md'>
                             <div className='flex items-center justify-between px-5 py-3 '>
-                                <p>What is this?</p>
+                                <p>What is SMS Nasi? </p>
                                 <button
                                     className='bg-customm rounded-full px-2'
                                     onClick={() => SeeMoreClick(1)}
@@ -31,10 +31,9 @@ const FAQ = () => {
                                 </button>
                             </div>
                             {isVisible === 1 && (
-                                <div className="content p-5 bg-black bg-opacity-30 transition-all duration-300">
+                                <div className="content px-3 py-1 pb-3 bg-black bg-opacity-30 transition-all duration-300">
                                     <p className="text-neutral-40 mt-5">
-                                        <span className="font-bold text-black">Fee Reminders:</span> <br />
-                                        Send reminders for fee payments to parents or students, helping schools maintain timely collections.
+                                        SMS Nasi is a bulk SMS platform that allows businesses and individuals to send large volumes of text messages to multiple recipients at once.
                                     </p>
                                 </div>
                             )}
@@ -43,7 +42,8 @@ const FAQ = () => {
 
                     <div className='w-[500px] mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
-                    <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
+                    <div className='flex items-center justify-between px-5 py-3 '>        
+                                                <p>How does SMS Nasi work?</p>
                                 <button
                                     className='bg-customm rounded-full px-2'
                                     onClick={() => SeeMoreClick(2)}
@@ -52,18 +52,17 @@ const FAQ = () => {
                                 </button>
                             </div>
                             {isVisible === 2 && (
-                                <div className="content p-5 bg-black bg-opacity-30 transition-all duration-300">
+                                <div className="content px-3 py-1 pb-3 bg-black bg-opacity-30 transition-all duration-300">
                                     <p className="text-neutral-40 mt-5">
-                                        <span className="font-bold text-black">Fee Reminders:</span> <br />
-                                        Send reminders for fee payments to parents or students, helping schools maintain timely collections.
-                                    </p>
+                                        You can upload your list of contacts, compose a message, and send it to your entire audience or a specific group. The platform handles the delivery of messages quickly and efficiently.</p>
                                 </div>
                             )}
                         </div>
                     </div>
                     <div className='w-[500px] mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
-                    <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
+                    <div className='flex items-center justify-between px-5 py-3 '>                                
+                        <p>How do I create an account? </p>
                                 <button
                                     className='bg-customm rounded-full px-2'
                                     onClick={() => SeeMoreClick(3)}
@@ -72,18 +71,19 @@ const FAQ = () => {
                                 </button>
                             </div>
                             {isVisible === 3 && (
-                                <div className="content p-5 bg-black bg-opacity-30 transition-all duration-300">
+                                <div className="content px-3 py-1 pb-3 bg-black bg-opacity-30 transition-all duration-300">
                                     <p className="text-neutral-40 mt-5">
-                                        <span className="font-bold text-black">Fee Reminders:</span> <br />
-                                        Send reminders for fee payments to parents or students, helping schools maintain timely collections.
-                                    </p>
+                                        You can create an account by visiting our website and clicking on the "Get Started" button. Follow the prompts to set up your profile and get started.
+
+</p>
                                 </div>
                             )}
                         </div>
                     </div>
                     <div className='w-[500px] mb-5'>
                     <div className='bg-customl  text-black rounded-md'>
-                    <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
+                    <div className='flex items-center justify-between px-5 py-3 '>                               
+                         <p>How many messages can I send at once? </p>
                                 <button
                                     className='bg-customm rounded-full px-2'
                                     onClick={() => SeeMoreClick(4)}
@@ -92,18 +92,19 @@ const FAQ = () => {
                                 </button>
                             </div>
                             {isVisible === 4 && (
-                                <div className="content p-5 bg-black bg-opacity-30 transition-all duration-300">
+                                <div className="content px-3 py-1 pb-3 bg-black bg-opacity-30 transition-all duration-300">
                                     <p className="text-neutral-40 mt-5">
-                                        <span className="font-bold text-black">Fee Reminders:</span> <br />
-                                        Send reminders for fee payments to parents or students, helping schools maintain timely collections.
-                                    </p>
+                                        You can send messages to thousands of contacts at a time. There’s no limit to the number of recipients in a single broadcast.
+
+</p>
                                 </div>
                             )}
                         </div>
                     </div>
                      <div className='w-[500px] mb-5'>
                      <div className='bg-customl  text-black rounded-md'>
-                     <div className='flex items-center justify-between px-5 py-3 '>                                <p>What is this?</p>
+                     <div className='flex items-center justify-between px-5 py-3 '>                              
+                          <p>How much does it cost to send a message? </p>
                                 <button
                                     className='bg-customm rounded-full px-2'
                                     onClick={() => SeeMoreClick(5)}
@@ -112,11 +113,11 @@ const FAQ = () => {
                                 </button>
                             </div>
                             {isVisible === 5 && (
-                                <div className="content p-5 bg-black bg-opacity-30 transition-all duration-300">
+                                <div className="content px-3 py-1 pb-3 bg-black bg-opacity-30 transition-all duration-300">
                                     <p className="text-neutral-40 mt-5">
-                                        <span className="font-bold text-black">Fee Reminders:</span> <br />
-                                        Send reminders for fee payments to parents or students, helping schools maintain timely collections.
-                                    </p>
+                                        The cost per message depends on the destination and the number of credits purchased. Bulk purchases often come with discounts.
+
+</p>
                                 </div>
                             )}
                         </div>

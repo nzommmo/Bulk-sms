@@ -5,7 +5,7 @@ import { Facebook,Twitter,Instagram } from 'lucide-react'
 const Footer = () => {
   return (
     <div className='relative mt-10'>
-        <div className='flex md:flex-row sm:flex-col gap-10 ms-5 me-5  md:items-center justify-between  '>
+        <div className='flex md:flex-row sm:flex-col flex-wrap gap-10 ms-5 me-5  md:items-center justify-between  '>
             <div className='flex flex-col gap-5 flex-wrap'>
                 <div>
                     <img src="" alt="logo" />
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='clex flex-col gap-2'>
+            <div className='flex flex-col gap-2'>
                 <div>
                 <h1 className='text-customm text-xl '>Information</h1>
                 </div>

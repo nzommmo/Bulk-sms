@@ -9,7 +9,7 @@ const CTA = () => {
   return (
     <div className='mt-10 mb-10'>
         <div className='flex items-center justify-center'>
-        <div className='w-[310px] tracking-tighter  px-5 py-5  ms-3 me-3 rounded border border-customm'>
+        <div className='w-[310px] md:w-1/2 tracking-tighter  px-5 py-5  ms-3 me-3 rounded border border-customm'>
            
             <div className=''>
             <div>
